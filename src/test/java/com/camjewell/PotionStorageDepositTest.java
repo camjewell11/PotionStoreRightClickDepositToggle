@@ -1,13 +1,13 @@
-package com.example;
+package com.camjewell;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class PotionStorageDepositTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(PotionStorageDeposit.class);
 		RuneLite.main(args);
 	}
 }
